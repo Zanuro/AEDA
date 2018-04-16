@@ -11,7 +11,7 @@ void quicksort(vector<clave> &v, unsigned int inicio, unsigned int final, unsign
     //clave temporal;
     int i=inicio;
     int j=final;
-    clave pivote = v[(inicio+final)/2];
+    clave pivote = v[((inicio+final)/2)+1];
 
 while (i <= j) {
 
