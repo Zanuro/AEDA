@@ -77,7 +77,7 @@ while(delta >= 1){
 
     }}}
 
-    cout << comparacion << endl;
+    //cout << comparacion << endl;
     return comparacion;
 
 
