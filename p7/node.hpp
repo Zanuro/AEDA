@@ -28,18 +28,21 @@ public:
 template<class data_type>
 node<data_type>::node(void):
     data(),
+    balance(0),
     left(nullptr),
     right(nullptr){}
 
 template<class data_type>
 node<data_type>::node(data_type data_):
     data(data_),
+    balance(0),
     left(nullptr),
     right(nullptr){}
 
 template<class data_type>
 node<data_type>::node(data_type data_, node<data_type>* left_, node<data_type>* right_):
     data(data_),
+    balance(0),
     left(left_),
     right(right_){}
 
